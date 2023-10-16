@@ -1,6 +1,6 @@
 from mongoengine import *
 
-connect(host='mongodb+srv://goitlearn:77766@cluster0.gud02oa.mongodb.net/?retryWrites=true&w=majority')
+connect(host='mongodb+srv://goitlearn:<password>@cluster0.gud02oa.mongodb.net/?retryWrites=true&w=majority')
 
 class Authors(Document):
     fullname = StringField(required=True)
